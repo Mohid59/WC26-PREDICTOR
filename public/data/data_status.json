@@ -1,0 +1,8 @@
+{
+  "results_source": "REAL",
+  "fixtures_source": "FIFA_OFFICIAL",
+  "is_sample": false,
+  "note": "Historical results: martj42/international_results (public CC0 dataset).",
+  "fixtures_note": "FIFA World Cup 2026 official match schedule, including all 104 matches. Source: https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+  "generated_at": "2026-05-14T20:16:11.893668Z"
+}

@@ -24,7 +24,7 @@ reports/*.html
 !**/.gitkeep
 
 # Public data is generated; keep checked in only if needed
-public/data/*.json
+# public/data/*.json
 
 # Editor
 .vscode/

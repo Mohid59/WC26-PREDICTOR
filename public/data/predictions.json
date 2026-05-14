@@ -1,0 +1,4830 @@
+{
+  "items": [
+    {
+      "match_id": "M001",
+      "date": "2026-06-11",
+      "kickoff": "13:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Estadio Azteca, Mexico City",
+      "home": "MEX",
+      "away": "RSA",
+      "p_home": 0.3656,
+      "p_draw": 0.3684,
+      "p_away": 0.266,
+      "xg_home": 1.766,
+      "xg_away": 0.797,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1362
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1202
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1085
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0958
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0771
+        }
+      ],
+      "confidence": 0.0097,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M002",
+      "date": "2026-06-11",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Estadio Akron, Zapopan",
+      "home": "KOR",
+      "away": "CZE",
+      "p_home": 0.2997,
+      "p_draw": 0.3896,
+      "p_away": 0.3107,
+      "xg_home": 1.319,
+      "xg_away": 1.088,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1293
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1188
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.098
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0901
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0853
+        }
+      ],
+      "confidence": 0.0064,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M003",
+      "date": "2026-06-12",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "BMO Field, Toronto",
+      "home": "CAN",
+      "away": "BIH",
+      "p_home": 0.2727,
+      "p_draw": 0.3931,
+      "p_away": 0.3342,
+      "xg_home": 1.403,
+      "xg_away": 1.016,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1269
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1249
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0904
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.089
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.089
+        }
+      ],
+      "confidence": 0.01,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M004",
+      "date": "2026-06-12",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "SoFi Stadium, Inglewood",
+      "home": "USA",
+      "away": "PAR",
+      "p_home": 0.3013,
+      "p_draw": 0.3727,
+      "p_away": 0.3261,
+      "xg_home": 1.591,
+      "xg_away": 0.891,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.133
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1185
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1058
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0943
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0836
+        }
+      ],
+      "confidence": 0.0036,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M005",
+      "date": "2026-06-13",
+      "kickoff": "21:00",
+      "stage": "group",
+      "group": "C",
+      "venue": "Gillette Stadium, Foxborough",
+      "home": "HAI",
+      "away": "SCO",
+      "p_home": 0.1327,
+      "p_draw": 0.3303,
+      "p_away": 0.537,
+      "xg_home": 0.749,
+      "xg_away": 1.967,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1279
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.13
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0974
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0958
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.0839
+        }
+      ],
+      "confidence": 0.1191,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M006",
+      "date": "2026-06-13",
+      "kickoff": "21:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "BC Place, Vancouver",
+      "home": "AUS",
+      "away": "TUR",
+      "p_home": 0.2901,
+      "p_draw": 0.3913,
+      "p_away": 0.3187,
+      "xg_home": 1.265,
+      "xg_away": 1.137,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1302
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1145
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1029
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0905
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0824
+        }
+      ],
+      "confidence": 0.0073,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M007",
+      "date": "2026-06-13",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "C",
+      "venue": "MetLife Stadium, East Rutherford",
+      "home": "BRA",
+      "away": "MAR",
+      "p_home": 0.3843,
+      "p_draw": 0.3629,
+      "p_away": 0.2528,
+      "xg_home": 1.925,
+      "xg_away": 0.735,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1347
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1296
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.099
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0952
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0832
+        }
+      ],
+      "confidence": 0.0142,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M008",
+      "date": "2026-06-13",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "Levi's Stadium, Santa Clara",
+      "home": "QAT",
+      "away": "SUI",
+      "p_home": 0.3219,
+      "p_draw": 0.3852,
+      "p_away": 0.2928,
+      "xg_home": 0.985,
+      "xg_away": 1.483,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1258
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1238
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0932
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0918
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0848
+        }
+      ],
+      "confidence": 0.006,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M009",
+      "date": "2026-06-14",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "CIV",
+      "away": "ECU",
+      "p_home": 0.3339,
+      "p_draw": 0.351,
+      "p_away": 0.315,
+      "xg_home": 1.188,
+      "xg_away": 1.213,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1306
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.11
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1077
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0907
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0792
+        }
+      ],
+      "confidence": 0.0009,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M010",
+      "date": "2026-06-14",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "NRG Stadium, Houston",
+      "home": "GER",
+      "away": "CUW",
+      "p_home": 0.4026,
+      "p_draw": 0.3676,
+      "p_away": 0.2298,
+      "xg_home": 3.167,
+      "xg_away": 0.428,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1453
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1377
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.1151
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0869
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "prob": 0.0729
+        }
+      ],
+      "confidence": 0.0241,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M011",
+      "date": "2026-06-14",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "AT&T Stadium, Arlington",
+      "home": "NED",
+      "away": "JPN",
+      "p_home": 0.3248,
+      "p_draw": 0.4228,
+      "p_away": 0.2525,
+      "xg_home": 1.697,
+      "xg_away": 0.838,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1127
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1345
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1142
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0956
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0793
+        }
+      ],
+      "confidence": 0.0199,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M012",
+      "date": "2026-06-14",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "Estadio BBVA, Guadalupe",
+      "home": "SWE",
+      "away": "TUN",
+      "p_home": 0.3207,
+      "p_draw": 0.3761,
+      "p_away": 0.3032,
+      "xg_home": 1.526,
+      "xg_away": 0.931,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1308
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1217
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.0998
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0929
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0857
+        }
+      ],
+      "confidence": 0.0039,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M013",
+      "date": "2026-06-15",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "home": "KSA",
+      "away": "URU",
+      "p_home": 0.2645,
+      "p_draw": 0.4315,
+      "p_away": 0.304,
+      "xg_home": 0.887,
+      "xg_away": 1.657,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1154
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1301
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1078
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0957
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0785
+        }
+      ],
+      "confidence": 0.0202,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M014",
+      "date": "2026-06-15",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "ESP",
+      "away": "CPV",
+      "p_home": 0.4058,
+      "p_draw": 0.3331,
+      "p_away": 0.2611,
+      "xg_home": 3.239,
+      "xg_away": 0.421,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1458
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1351
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.1181
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0834
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "prob": 0.0765
+        }
+      ],
+      "confidence": 0.0144,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M015",
+      "date": "2026-06-15",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "SoFi Stadium, Inglewood",
+      "home": "IRN",
+      "away": "NZL",
+      "p_home": 0.4137,
+      "p_draw": 0.3502,
+      "p_away": 0.2361,
+      "xg_home": 1.918,
+      "xg_away": 0.728,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1305
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1361
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.099
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.095
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0835
+        }
+      ],
+      "confidence": 0.023,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M016",
+      "date": "2026-06-15",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "Lumen Field, Seattle",
+      "home": "BEL",
+      "away": "EGY",
+      "p_home": 0.3275,
+      "p_draw": 0.3784,
+      "p_away": 0.2941,
+      "xg_home": 1.805,
+      "xg_away": 0.782,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1359
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1226
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1062
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0958
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0753
+        }
+      ],
+      "confidence": 0.0049,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M017",
+      "date": "2026-06-16",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "MetLife Stadium, East Rutherford",
+      "home": "FRA",
+      "away": "SEN",
+      "p_home": 0.3856,
+      "p_draw": 0.3731,
+      "p_away": 0.2413,
+      "xg_home": 2.181,
+      "xg_away": 0.643,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1412
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1294
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1027
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0908
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0832
+        }
+      ],
+      "confidence": 0.0185,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M018",
+      "date": "2026-06-16",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "Gillette Stadium, Foxborough",
+      "home": "IRQ",
+      "away": "NOR",
+      "p_home": 0.2432,
+      "p_draw": 0.3432,
+      "p_away": 0.4136,
+      "xg_home": 0.943,
+      "xg_away": 1.546,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1283
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.121
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0991
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0935
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.083
+        }
+      ],
+      "confidence": 0.0206,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M019",
+      "date": "2026-06-16",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "ARG",
+      "away": "ALG",
+      "p_home": 0.3876,
+      "p_draw": 0.3494,
+      "p_away": 0.263,
+      "xg_home": 2.687,
+      "xg_away": 0.515,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1469
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1316
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1093
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0884
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0756
+        }
+      ],
+      "confidence": 0.0114,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M020",
+      "date": "2026-06-16",
+      "kickoff": "21:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "Levi's Stadium, Santa Clara",
+      "home": "AUT",
+      "away": "JOR",
+      "p_home": 0.3925,
+      "p_draw": 0.3456,
+      "p_away": 0.262,
+      "xg_home": 1.959,
+      "xg_away": 0.712,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1356
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1328
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0965
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0945
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0867
+        }
+      ],
+      "confidence": 0.0122,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M021",
+      "date": "2026-06-17",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "BMO Field, Toronto",
+      "home": "GHA",
+      "away": "PAN",
+      "p_home": 0.3531,
+      "p_draw": 0.3648,
+      "p_away": 0.2821,
+      "xg_home": 1.432,
+      "xg_away": 0.992,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1269
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1258
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.0908
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0901
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0886
+        }
+      ],
+      "confidence": 0.0056,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M022",
+      "date": "2026-06-17",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "AT&T Stadium, Arlington",
+      "home": "ENG",
+      "away": "CRO",
+      "p_home": 0.3468,
+      "p_draw": 0.4232,
+      "p_away": 0.2299,
+      "xg_home": 1.629,
+      "xg_away": 0.878,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1166
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1328
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1082
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.095
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0815
+        }
+      ],
+      "confidence": 0.0268,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M023",
+      "date": "2026-06-17",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "K",
+      "venue": "NRG Stadium, Houston",
+      "home": "POR",
+      "away": "COD",
+      "p_home": 0.4206,
+      "p_draw": 0.3379,
+      "p_away": 0.2415,
+      "xg_home": 2.74,
+      "xg_away": 0.502,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.134
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1468
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1071
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0918
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0736
+        }
+      ],
+      "confidence": 0.0224,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M024",
+      "date": "2026-06-17",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "K",
+      "venue": "Estadio Azteca, Mexico City",
+      "home": "UZB",
+      "away": "COL",
+      "p_home": 0.2175,
+      "p_draw": 0.3747,
+      "p_away": 0.4078,
+      "xg_home": 0.816,
+      "xg_away": 1.809,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1186
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1311
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1069
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0967
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0725
+        }
+      ],
+      "confidence": 0.0302,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M025",
+      "date": "2026-06-18",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "CZE",
+      "away": "RSA",
+      "p_home": 0.3378,
+      "p_draw": 0.3615,
+      "p_away": 0.3006,
+      "xg_home": 1.59,
+      "xg_away": 0.889,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1333
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1185
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.106
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0942
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0838
+        }
+      ],
+      "confidence": 0.0026,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M026",
+      "date": "2026-06-18",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "SoFi Stadium, Inglewood",
+      "home": "SUI",
+      "away": "BIH",
+      "p_home": 0.3152,
+      "p_draw": 0.3973,
+      "p_away": 0.2875,
+      "xg_home": 1.659,
+      "xg_away": 0.852,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1347
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1148
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1117
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0952
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0812
+        }
+      ],
+      "confidence": 0.0087,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M027",
+      "date": "2026-06-18",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "BC Place, Vancouver",
+      "home": "CAN",
+      "away": "QAT",
+      "p_home": 0.2573,
+      "p_draw": 0.3989,
+      "p_away": 0.3437,
+      "xg_home": 1.374,
+      "xg_away": 1.039,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1278
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1231
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.093
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0895
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0878
+        }
+      ],
+      "confidence": 0.0142,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M028",
+      "date": "2026-06-18",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Estadio Akron, Zapopan",
+      "home": "MEX",
+      "away": "KOR",
+      "p_home": 0.2934,
+      "p_draw": 0.3794,
+      "p_away": 0.3272,
+      "xg_home": 1.347,
+      "xg_away": 1.065,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1286
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1207
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0954
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0896
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0866
+        }
+      ],
+      "confidence": 0.0051,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M029",
+      "date": "2026-06-19",
+      "kickoff": "20:30",
+      "stage": "group",
+      "group": "C",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "BRA",
+      "away": "HAI",
+      "p_home": 0.4026,
+      "p_draw": 0.3676,
+      "p_away": 0.2298,
+      "xg_home": 3.824,
+      "xg_away": 0.351,
+      "likely_scores": [
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.1369
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1432
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1123
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "prob": 0.1047
+        },
+        {
+          "home_goals": 6,
+          "away_goals": 0,
+          "prob": 0.0668
+        }
+      ],
+      "confidence": 0.0241,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M030",
+      "date": "2026-06-19",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "C",
+      "venue": "Gillette Stadium, Foxborough",
+      "home": "SCO",
+      "away": "MAR",
+      "p_home": 0.3008,
+      "p_draw": 0.3812,
+      "p_away": 0.3179,
+      "xg_home": 1.071,
+      "xg_away": 1.359,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1282
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1197
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0943
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0881
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0871
+        }
+      ],
+      "confidence": 0.0048,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M031",
+      "date": "2026-06-19",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "Levi's Stadium, Santa Clara",
+      "home": "TUR",
+      "away": "PAR",
+      "p_home": 0.2929,
+      "p_draw": 0.387,
+      "p_away": 0.3201,
+      "xg_home": 1.463,
+      "xg_away": 0.972,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1281
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1246
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.0937
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0911
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0875
+        }
+      ],
+      "confidence": 0.0063,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M032",
+      "date": "2026-06-19",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "Lumen Field, Seattle",
+      "home": "USA",
+      "away": "AUS",
+      "p_home": 0.2927,
+      "p_draw": 0.3726,
+      "p_away": 0.3347,
+      "xg_home": 1.376,
+      "xg_away": 1.042,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1278
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1227
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0929
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0892
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0879
+        }
+      ],
+      "confidence": 0.0044,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M033",
+      "date": "2026-06-20",
+      "kickoff": "16:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "BMO Field, Toronto",
+      "home": "GER",
+      "away": "CIV",
+      "p_home": 0.3486,
+      "p_draw": 0.3536,
+      "p_away": 0.2978,
+      "xg_home": 2.046,
+      "xg_away": 0.685,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1364
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1333
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0934
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.093
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0913
+        }
+      ],
+      "confidence": 0.0026,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M034",
+      "date": "2026-06-20",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "ECU",
+      "away": "CUW",
+      "p_home": 0.3776,
+      "p_draw": 0.3801,
+      "p_away": 0.2422,
+      "xg_home": 2.084,
+      "xg_away": 0.664,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.139
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1335
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0966
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0924
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0887
+        }
+      ],
+      "confidence": 0.018,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M035",
+      "date": "2026-06-20",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "NRG Stadium, Houston",
+      "home": "NED",
+      "away": "SWE",
+      "p_home": 0.3412,
+      "p_draw": 0.3731,
+      "p_away": 0.2857,
+      "xg_home": 1.807,
+      "xg_away": 0.783,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1355
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1224
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1062
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0959
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.075
+        }
+      ],
+      "confidence": 0.0054,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M036",
+      "date": "2026-06-20",
+      "kickoff": "22:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "Estadio BBVA, Guadalupe",
+      "home": "TUN",
+      "away": "JPN",
+      "p_home": 0.3219,
+      "p_draw": 0.3852,
+      "p_away": 0.2928,
+      "xg_home": 0.985,
+      "xg_away": 1.483,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1258
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1238
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0932
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0918
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0848
+        }
+      ],
+      "confidence": 0.006,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M037",
+      "date": "2026-06-21",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "home": "URU",
+      "away": "CPV",
+      "p_home": 0.3993,
+      "p_draw": 0.3336,
+      "p_away": 0.2671,
+      "xg_home": 2.176,
+      "xg_away": 0.638,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1419
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1305
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1029
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0906
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0833
+        }
+      ],
+      "confidence": 0.012,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M038",
+      "date": "2026-06-21",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "ESP",
+      "away": "KSA",
+      "p_home": 0.3923,
+      "p_draw": 0.3472,
+      "p_away": 0.2605,
+      "xg_home": 2.686,
+      "xg_away": 0.514,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.147
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1316
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1095
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0884
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0756
+        }
+      ],
+      "confidence": 0.0126,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M039",
+      "date": "2026-06-21",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "SoFi Stadium, Inglewood",
+      "home": "BEL",
+      "away": "IRN",
+      "p_home": 0.3316,
+      "p_draw": 0.4018,
+      "p_away": 0.2666,
+      "xg_home": 1.627,
+      "xg_away": 0.874,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1334
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1166
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1085
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0949
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.082
+        }
+      ],
+      "confidence": 0.0125,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M040",
+      "date": "2026-06-21",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "BC Place, Vancouver",
+      "home": "NZL",
+      "away": "EGY",
+      "p_home": 0.2167,
+      "p_draw": 0.377,
+      "p_away": 0.4063,
+      "xg_home": 0.924,
+      "xg_away": 1.578,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1293
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1194
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1021
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0942
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0819
+        }
+      ],
+      "confidence": 0.0305,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M041",
+      "date": "2026-06-22",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "MetLife Stadium, East Rutherford",
+      "home": "NOR",
+      "away": "SEN",
+      "p_home": 0.3075,
+      "p_draw": 0.3714,
+      "p_away": 0.321,
+      "xg_home": 1.164,
+      "xg_away": 1.243,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1303
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.112
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1049
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0901
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.081
+        }
+      ],
+      "confidence": 0.0031,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M042",
+      "date": "2026-06-22",
+      "kickoff": "17:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "FRA",
+      "away": "IRQ",
+      "p_home": 0.4206,
+      "p_draw": 0.3379,
+      "p_away": 0.2415,
+      "xg_home": 3.173,
+      "xg_away": 0.43,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.145
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1371
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.115
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0864
+        },
+        {
+          "home_goals": 5,
+          "away_goals": 0,
+          "prob": 0.073
+        }
+      ],
+      "confidence": 0.0224,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M043",
+      "date": "2026-06-22",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "AT&T Stadium, Arlington",
+      "home": "ARG",
+      "away": "AUT",
+      "p_home": 0.3962,
+      "p_draw": 0.3568,
+      "p_away": 0.2471,
+      "xg_home": 2.323,
+      "xg_away": 0.602,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1448
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1247
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1121
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0872
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0751
+        }
+      ],
+      "confidence": 0.017,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M044",
+      "date": "2026-06-22",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "Levi's Stadium, Santa Clara",
+      "home": "JOR",
+      "away": "ALG",
+      "p_home": 0.2265,
+      "p_draw": 0.3703,
+      "p_away": 0.4032,
+      "xg_home": 0.943,
+      "xg_away": 1.543,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1284
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1211
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0991
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0935
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0832
+        }
+      ],
+      "confidence": 0.0256,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M045",
+      "date": "2026-06-23",
+      "kickoff": "16:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "Gillette Stadium, Foxborough",
+      "home": "ENG",
+      "away": "GHA",
+      "p_home": 0.3881,
+      "p_draw": 0.3616,
+      "p_away": 0.2503,
+      "xg_home": 2.419,
+      "xg_away": 0.574,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1467
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1213
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1183
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0842
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0715
+        }
+      ],
+      "confidence": 0.0153,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M046",
+      "date": "2026-06-23",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "BMO Field, Toronto",
+      "home": "PAN",
+      "away": "CRO",
+      "p_home": 0.2351,
+      "p_draw": 0.3688,
+      "p_away": 0.3962,
+      "xg_home": 0.751,
+      "xg_away": 1.978,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1278
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1292
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.097
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0959
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.0842
+        }
+      ],
+      "confidence": 0.0214,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M047",
+      "date": "2026-06-23",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "K",
+      "venue": "NRG Stadium, Houston",
+      "home": "POR",
+      "away": "UZB",
+      "p_home": 0.416,
+      "p_draw": 0.3396,
+      "p_away": 0.2444,
+      "xg_home": 2.628,
+      "xg_away": 0.525,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1293
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1476
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1123
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.085
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0774
+        }
+      ],
+      "confidence": 0.0206,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M048",
+      "date": "2026-06-23",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "K",
+      "venue": "Estadio Akron, Zapopan",
+      "home": "COL",
+      "away": "COD",
+      "p_home": 0.3739,
+      "p_draw": 0.3356,
+      "p_away": 0.2905,
+      "xg_home": 2.044,
+      "xg_away": 0.682,
+      "likely_scores": [
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1368
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1338
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0933
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0932
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0913
+        }
+      ],
+      "confidence": 0.0048,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M049",
+      "date": "2026-06-24",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "C",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "home": "SCO",
+      "away": "BRA",
+      "p_home": 0.215,
+      "p_draw": 0.3571,
+      "p_away": 0.428,
+      "xg_home": 0.706,
+      "xg_away": 2.124,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1331
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1253
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.0942
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.094
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0885
+        }
+      ],
+      "confidence": 0.0339,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M050",
+      "date": "2026-06-24",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "C",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "MAR",
+      "away": "HAI",
+      "p_home": 0.3966,
+      "p_draw": 0.3726,
+      "p_away": 0.2308,
+      "xg_home": 2.516,
+      "xg_away": 0.545,
+      "likely_scores": [
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.1243
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1482
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1178
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0808
+        },
+        {
+          "home_goals": 4,
+          "away_goals": 0,
+          "prob": 0.0782
+        }
+      ],
+      "confidence": 0.0233,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M051",
+      "date": "2026-06-24",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "BC Place, Vancouver",
+      "home": "SUI",
+      "away": "CAN",
+      "p_home": 0.3024,
+      "p_draw": 0.3602,
+      "p_away": 0.3373,
+      "xg_home": 1.495,
+      "xg_away": 0.953,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1293
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1232
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.0966
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0921
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0865
+        }
+      ],
+      "confidence": 0.0023,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M052",
+      "date": "2026-06-24",
+      "kickoff": "12:00",
+      "stage": "group",
+      "group": "B",
+      "venue": "Lumen Field, Seattle",
+      "home": "BIH",
+      "away": "QAT",
+      "p_home": 0.2643,
+      "p_draw": 0.4227,
+      "p_away": 0.313,
+      "xg_home": 1.238,
+      "xg_away": 1.159,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1306
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1126
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1055
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.091
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0808
+        }
+      ],
+      "confidence": 0.0176,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M053",
+      "date": "2026-06-24",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Estadio Azteca, Mexico City",
+      "home": "CZE",
+      "away": "MEX",
+      "p_home": 0.283,
+      "p_draw": 0.3725,
+      "p_away": 0.3445,
+      "xg_home": 1.14,
+      "xg_away": 1.271,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.13
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1141
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1023
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0897
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0826
+        }
+      ],
+      "confidence": 0.0058,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M054",
+      "date": "2026-06-24",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "A",
+      "venue": "Estadio BBVA, Guadalupe",
+      "home": "RSA",
+      "away": "KOR",
+      "p_home": 0.2438,
+      "p_draw": 0.3372,
+      "p_away": 0.419,
+      "xg_home": 0.964,
+      "xg_away": 1.513,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1271
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1225
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0962
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0927
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.084
+        }
+      ],
+      "confidence": 0.0213,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M055",
+      "date": "2026-06-25",
+      "kickoff": "16:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "CUW",
+      "away": "CIV",
+      "p_home": 0.1161,
+      "p_draw": 0.3371,
+      "p_away": 0.5469,
+      "xg_home": 0.814,
+      "xg_away": 1.799,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1186
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1318
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1074
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0966
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0733
+        }
+      ],
+      "confidence": 0.1384,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M056",
+      "date": "2026-06-25",
+      "kickoff": "16:00",
+      "stage": "group",
+      "group": "E",
+      "venue": "MetLife Stadium, East Rutherford",
+      "home": "ECU",
+      "away": "GER",
+      "p_home": 0.2199,
+      "p_draw": 0.3872,
+      "p_away": 0.3929,
+      "xg_home": 0.834,
+      "xg_away": 1.776,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.116
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1306
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1089
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0967
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0735
+        }
+      ],
+      "confidence": 0.0283,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M057",
+      "date": "2026-06-25",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "AT&T Stadium, Arlington",
+      "home": "JPN",
+      "away": "SWE",
+      "p_home": 0.2934,
+      "p_draw": 0.3794,
+      "p_away": 0.3272,
+      "xg_home": 1.347,
+      "xg_away": 1.065,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1286
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1207
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0954
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0896
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0866
+        }
+      ],
+      "confidence": 0.0051,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M058",
+      "date": "2026-06-25",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "F",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "TUN",
+      "away": "NED",
+      "p_home": 0.231,
+      "p_draw": 0.3643,
+      "p_away": 0.4046,
+      "xg_home": 0.736,
+      "xg_away": 2.027,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1297
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1279
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0954
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0941
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.0876
+        }
+      ],
+      "confidence": 0.0238,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M059",
+      "date": "2026-06-25",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "SoFi Stadium, Inglewood",
+      "home": "TUR",
+      "away": "USA",
+      "p_home": 0.3214,
+      "p_draw": 0.3634,
+      "p_away": 0.3152,
+      "xg_home": 1.164,
+      "xg_away": 1.243,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1303
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.112
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1048
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.09
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.081
+        }
+      ],
+      "confidence": 0.0018,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M060",
+      "date": "2026-06-25",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "D",
+      "venue": "Levi's Stadium, Santa Clara",
+      "home": "PAR",
+      "away": "AUS",
+      "p_home": 0.2965,
+      "p_draw": 0.3536,
+      "p_away": 0.3498,
+      "xg_home": 1.093,
+      "xg_away": 1.326,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.129
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1181
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0973
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.089
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0855
+        }
+      ],
+      "confidence": 0.0028,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M061",
+      "date": "2026-06-26",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "Gillette Stadium, Foxborough",
+      "home": "NOR",
+      "away": "FRA",
+      "p_home": 0.215,
+      "p_draw": 0.3571,
+      "p_away": 0.428,
+      "xg_home": 0.678,
+      "xg_away": 2.222,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1359
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1223
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.1007
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0921
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0829
+        }
+      ],
+      "confidence": 0.0339,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M062",
+      "date": "2026-06-26",
+      "kickoff": "15:00",
+      "stage": "group",
+      "group": "I",
+      "venue": "BMO Field, Toronto",
+      "home": "SEN",
+      "away": "IRQ",
+      "p_home": 0.3823,
+      "p_draw": 0.3729,
+      "p_away": 0.2447,
+      "xg_home": 1.841,
+      "xg_away": 0.761,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1364
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1256
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1039
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0956
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.077
+        }
+      ],
+      "confidence": 0.017,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M063",
+      "date": "2026-06-26",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "Lumen Field, Seattle",
+      "home": "EGY",
+      "away": "IRN",
+      "p_home": 0.2923,
+      "p_draw": 0.3513,
+      "p_away": 0.3564,
+      "xg_home": 1.139,
+      "xg_away": 1.27,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1301
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1141
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1024
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0899
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0826
+        }
+      ],
+      "confidence": 0.0035,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M064",
+      "date": "2026-06-26",
+      "kickoff": "20:00",
+      "stage": "group",
+      "group": "G",
+      "venue": "BC Place, Vancouver",
+      "home": "NZL",
+      "away": "BEL",
+      "p_home": 0.2116,
+      "p_draw": 0.3594,
+      "p_away": 0.4291,
+      "xg_home": 0.648,
+      "xg_away": 2.308,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1385
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1201
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.1066
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0898
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.0778
+        }
+      ],
+      "confidence": 0.0357,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M065",
+      "date": "2026-06-26",
+      "kickoff": "19:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "NRG Stadium, Houston",
+      "home": "CPV",
+      "away": "KSA",
+      "p_home": 0.2707,
+      "p_draw": 0.3756,
+      "p_away": 0.3537,
+      "xg_home": 1.047,
+      "xg_away": 1.381,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1275
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1219
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0923
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0882
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0881
+        }
+      ],
+      "confidence": 0.0086,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M066",
+      "date": "2026-06-26",
+      "kickoff": "18:00",
+      "stage": "group",
+      "group": "H",
+      "venue": "Estadio Akron, Zapopan",
+      "home": "URU",
+      "away": "ESP",
+      "p_home": 0.2139,
+      "p_draw": 0.3783,
+      "p_away": 0.4078,
+      "xg_home": 0.853,
+      "xg_away": 1.745,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1133
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1299
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1108
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0966
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0745
+        }
+      ],
+      "confidence": 0.032,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M067",
+      "date": "2026-06-27",
+      "kickoff": "17:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "MetLife Stadium, East Rutherford",
+      "home": "PAN",
+      "away": "ENG",
+      "p_home": 0.2225,
+      "p_draw": 0.344,
+      "p_away": 0.4335,
+      "xg_home": 0.585,
+      "xg_away": 2.586,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.121
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.1403
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1085
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0821
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "prob": 0.0782
+        }
+      ],
+      "confidence": 0.0317,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M068",
+      "date": "2026-06-27",
+      "kickoff": "17:00",
+      "stage": "group",
+      "group": "L",
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "home": "CRO",
+      "away": "GHA",
+      "p_home": 0.3853,
+      "p_draw": 0.3488,
+      "p_away": 0.266,
+      "xg_home": 1.881,
+      "xg_away": 0.747,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1358
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 0,
+          "prob": 0.1277
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1015
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0955
+        },
+        {
+          "home_goals": 3,
+          "away_goals": 0,
+          "prob": 0.0801
+        }
+      ],
+      "confidence": 0.0105,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M069",
+      "date": "2026-06-27",
+      "kickoff": "21:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "Arrowhead Stadium, Kansas City",
+      "home": "ALG",
+      "away": "AUT",
+      "p_home": 0.3102,
+      "p_draw": 0.3572,
+      "p_away": 0.3326,
+      "xg_home": 1.093,
+      "xg_away": 1.327,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.129
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.118
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.0972
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0889
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0856
+        }
+      ],
+      "confidence": 0.0015,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M070",
+      "date": "2026-06-27",
+      "kickoff": "21:00",
+      "stage": "group",
+      "group": "J",
+      "venue": "AT&T Stadium, Arlington",
+      "home": "JOR",
+      "away": "ARG",
+      "p_home": 0.2027,
+      "p_draw": 0.3542,
+      "p_away": 0.4431,
+      "xg_home": 0.446,
+      "xg_away": 3.45,
+      "likely_scores": [
+        {
+          "home_goals": 0,
+          "away_goals": 3,
+          "prob": 0.1391
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.121
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 4,
+          "prob": 0.12
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 5,
+          "prob": 0.0828
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.0701
+        }
+      ],
+      "confidence": 0.0426,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M071",
+      "date": "2026-06-27",
+      "kickoff": "19:30",
+      "stage": "group",
+      "group": "K",
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "home": "COL",
+      "away": "POR",
+      "p_home": 0.2314,
+      "p_draw": 0.3977,
+      "p_away": 0.371,
+      "xg_home": 0.946,
+      "xg_away": 1.56,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1204
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.1273
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 2,
+          "prob": 0.0992
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 2,
+          "prob": 0.0939
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0816
+        }
+      ],
+      "confidence": 0.0231,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    },
+    {
+      "match_id": "M072",
+      "date": "2026-06-27",
+      "kickoff": "19:30",
+      "stage": "group",
+      "group": "K",
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "home": "COD",
+      "away": "UZB",
+      "p_home": 0.3047,
+      "p_draw": 0.374,
+      "p_away": 0.3214,
+      "xg_home": 1.211,
+      "xg_away": 1.182,
+      "likely_scores": [
+        {
+          "home_goals": 1,
+          "away_goals": 1,
+          "prob": 0.1308
+        },
+        {
+          "home_goals": 1,
+          "away_goals": 0,
+          "prob": 0.1106
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 1,
+          "prob": 0.108
+        },
+        {
+          "home_goals": 0,
+          "away_goals": 0,
+          "prob": 0.0913
+        },
+        {
+          "home_goals": 2,
+          "away_goals": 1,
+          "prob": 0.0792
+        }
+      ],
+      "confidence": 0.0035,
+      "top_features": [
+        {
+          "name": "elo_diff",
+          "contribution": 0.15
+        },
+        {
+          "name": "elo_away",
+          "contribution": 0.0535
+        },
+        {
+          "name": "elo_home",
+          "contribution": 0.051
+        },
+        {
+          "name": "attack_home",
+          "contribution": 0.0505
+        },
+        {
+          "name": "attack_away",
+          "contribution": 0.048
+        }
+      ],
+      "model_version": "v0.1-20260514-201649",
+      "generated_at": "2026-05-14T20:17:25.892218Z"
+    }
+  ],
+  "generated_at": "2026-05-14T20:17:25.892218Z",
+  "model_version": "v0.1-20260514-201649"
+}
