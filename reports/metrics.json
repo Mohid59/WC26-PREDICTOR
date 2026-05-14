@@ -1,0 +1,99 @@
+{
+  "n_train": 6766,
+  "n_test": 1195,
+  "log_loss": 0.9379576596061812,
+  "brier_score": 0.556622217613149,
+  "accuracy": 0.5581589958158996,
+  "rps": 0.3741353439360243,
+  "confusion_matrix": [
+    [
+      384,
+      92,
+      94
+    ],
+    [
+      114,
+      63,
+      93
+    ],
+    [
+      69,
+      66,
+      220
+    ]
+  ],
+  "calibration_bins": [
+    {
+      "bin_lo": 0.30000000000000004,
+      "bin_hi": 0.4,
+      "n": 373,
+      "avg_conf": 0.3722885886584451,
+      "acc": 0.3753351206434316
+    },
+    {
+      "bin_lo": 0.4,
+      "bin_hi": 0.5,
+      "n": 403,
+      "avg_conf": 0.44401597187094094,
+      "acc": 0.49379652605459057
+    },
+    {
+      "bin_lo": 0.5,
+      "bin_hi": 0.6000000000000001,
+      "n": 218,
+      "avg_conf": 0.5458925083433722,
+      "acc": 0.7339449541284404
+    },
+    {
+      "bin_lo": 0.6000000000000001,
+      "bin_hi": 0.7000000000000001,
+      "n": 131,
+      "avg_conf": 0.6451384597780618,
+      "acc": 0.8091603053435115
+    },
+    {
+      "bin_lo": 0.7000000000000001,
+      "bin_hi": 0.8,
+      "n": 57,
+      "avg_conf": 0.738160943796368,
+      "acc": 0.8596491228070176
+    },
+    {
+      "bin_lo": 0.8,
+      "bin_hi": 0.9,
+      "n": 13,
+      "avg_conf": 0.8218263711717283,
+      "acc": 1.0
+    }
+  ],
+  "baseline_log_loss": 1.0498751680936682,
+  "baseline_brier": 0.6332405269645545,
+  "goal_mae_home": 1.0807359310086426,
+  "goal_mae_away": 0.8930936142635106,
+  "feature_cols": [
+    "elo_diff",
+    "elo_home",
+    "elo_away",
+    "form5_diff",
+    "form10_diff",
+    "gf5_home",
+    "gf5_away",
+    "ga5_home",
+    "ga5_away",
+    "attack_home",
+    "attack_away",
+    "defense_home",
+    "defense_away",
+    "rest_diff",
+    "host_home",
+    "host_away",
+    "same_confederation",
+    "neutral"
+  ],
+  "class_labels": [
+    "home",
+    "draw",
+    "away"
+  ],
+  "classifier_backend": "lightgbm"
+}

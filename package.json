@@ -1,0 +1,48 @@
+{
+  "name": "wc26-predictor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ml:install": "python -m pip install -r ml/requirements.txt",
+    "ml:pipeline": "python ml/scripts/run_pipeline.py",
+    "ml:fetch": "python ml/scripts/fetch_results.py && python ml/scripts/fetch_fixtures.py",
+    "ml:train": "python ml/scripts/train_model.py",
+    "ml:evaluate": "python ml/scripts/evaluate_model.py",
+    "ml:simulate": "python ml/scripts/simulate_tournament.py",
+    "ml:test": "python -m pytest ml/tests -q"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "recharts": "2.12.7",
+    "tailwind-merge": "^3.6.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "6.4.8",
+    "@testing-library/react": "16.0.0",
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "autoprefixer": "10.4.20",
+    "eslint": "8.57.0",
+    "eslint-config-next": "^14.2.35",
+    "jsdom": "24.1.1",
+    "postcss": "8.4.41",
+    "tailwindcss": "3.4.10",
+    "typescript": "5.5.4",
+    "vitest": "2.0.5"
+  }
+}

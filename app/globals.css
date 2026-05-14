@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  background: #070b0d;
+  color: #f6f1e3;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: #eab308; color: #070b0d; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #eab308;
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.card {
+  @apply rounded-2xl border border-line/80 bg-surface2/80 p-5;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(6px);
+}
+
+.btn {
+  @apply inline-flex h-9 cursor-pointer items-center justify-center gap-1.5 rounded-lg border border-line/80 bg-surface2 px-3.5 text-sm font-medium text-ink/90
+         transition-colors duration-200 hover:border-gold-500/70 hover:bg-elevated hover:text-ink focus-visible:outline-none;
+}
+.btn-primary {
+  @apply inline-flex h-10 cursor-pointer items-center justify-center gap-1.5 rounded-xl border border-gold-600 bg-gold-500 px-4 text-sm font-bold text-black
+         transition-colors duration-200 hover:bg-gold-400 focus-visible:outline-none shadow-glow;
+}
+.btn-pitch {
+  @apply inline-flex h-10 cursor-pointer items-center justify-center gap-1.5 rounded-xl border border-pitch-600 bg-pitch-600/90 px-4 text-sm font-semibold text-white
+         transition-colors duration-200 hover:bg-pitch-500 focus-visible:outline-none;
+}
+
+.chip {
+  @apply inline-flex items-center gap-1 rounded-full border border-line/80 bg-surface2/80 px-2 py-0.5 text-xs text-muted;
+}
+
+.prob-bar {
+  @apply h-2 w-full overflow-hidden rounded-full bg-line/80;
+}
+
+.divider {
+  @apply h-px w-full bg-gradient-to-r from-transparent via-line2 to-transparent;
+}
+
+.tabs {
+  @apply scrollbar-thin flex items-center gap-1 overflow-x-auto rounded-2xl border border-line/80 bg-surface2/60 p-1;
+}
+.tab {
+  @apply inline-flex h-9 shrink-0 cursor-pointer items-center justify-center gap-2 rounded-xl border border-transparent px-3 text-sm font-medium text-muted
+         transition-colors duration-200 hover:text-ink focus-visible:outline-none;
+}
+.tab[data-state="active"] {
+  @apply border-gold-500/40 bg-gold-500/10 text-ink;
+}
+
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #1a3038; border-radius: 8px; }
+.scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
