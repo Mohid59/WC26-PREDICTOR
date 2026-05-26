@@ -9,6 +9,7 @@ import {
 } from "./lib/artifacts";
 import { UpcomingList } from "./components/UpcomingList";
 import { TopWinners } from "./components/TopWinners";
+import { KickoffCountdown } from "./components/KickoffCountdown";
 
 export const dynamic = "force-static";
 
@@ -38,13 +39,6 @@ export default async function HomePage() {
         .sort((a, b) => b[1].winner - a[1].winner)
         .slice(0, 10) as Array<[string, { winner: number; sf: number; r16: number }]>)
     : [];
-
-  const daysToStart = Math.max(
-    0,
-    Math.round(
-      (new Date(TOURNAMENT_START + "T00:00:00").getTime() - Date.now()) / 86_400_000
-    )
-  );
 
   return (
     <div className="space-y-12">
@@ -85,7 +79,7 @@ export default async function HomePage() {
           <div className="grid gap-3 pt-4 sm:grid-cols-3">
             <HeroStat
               label="Kickoff"
-              value={daysToStart > 0 ? `${daysToStart} days` : "Live"}
+              value={<KickoffCountdown startIso={TOURNAMENT_START} />}
               sub="11 June 2026"
             />
             <HeroStat
@@ -133,7 +127,7 @@ export default async function HomePage() {
   );
 }
 
-function HeroStat({ label, value, sub }: { label: string; value: string; sub?: string }) {
+function HeroStat({ label, value, sub }: { label: string; value: React.ReactNode; sub?: string }) {
   return (
     <div className="rounded-2xl border border-line/80 bg-surface2/60 p-4 backdrop-blur">
       <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-muted">
