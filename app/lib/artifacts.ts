@@ -8,6 +8,8 @@ import type {
   ModelInfo,
   DataStatus,
   Metrics,
+  ResultsBundle,
+  SquadsBundle,
 } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "public", "data");
@@ -40,6 +42,12 @@ export async function loadModelInfo(): Promise<ModelInfo | null> {
 export async function loadDataStatus(): Promise<DataStatus | null> {
   return readJsonSafe<DataStatus>(path.join(DATA_DIR, "data_status.json"));
 }
+export async function loadResults(): Promise<ResultsBundle | null> {
+  return readJsonSafe<ResultsBundle>(path.join(DATA_DIR, "results.json"));
+}
+export async function loadSquads(): Promise<SquadsBundle | null> {
+  return readJsonSafe<SquadsBundle>(path.join(DATA_DIR, "squads.json"));
+}
 export async function loadMetrics(): Promise<Metrics | null> {
   return readJsonSafe<Metrics>(path.join(REPORTS_DIR, "metrics.json"));
 }
@@ -51,5 +59,13 @@ export function pct(p: number): string {
 export function teamNameMap(teams: Team[] | undefined): Record<string, string> {
   const m: Record<string, string> = {};
   (teams ?? []).forEach((t) => (m[t.code] = t.name));
+  return m;
+}
+
+export function resultMap(
+  bundle: ResultsBundle | null
+): Record<string, import("./types").MatchResult> {
+  const m: Record<string, import("./types").MatchResult> = {};
+  (bundle?.items ?? []).forEach((r) => (m[r.match_id] = r));
   return m;
 }

@@ -95,6 +95,52 @@ export type ModelInfo = {
   git_commit?: string;
 };
 
+export type GoalScorer = {
+  team: string;
+  player: string;
+  minute: number | null;
+  penalty?: boolean;
+  own_goal?: boolean;
+};
+
+export type MatchResult = {
+  match_id: string;
+  status: "FT" | "AET" | "PEN" | "LIVE" | string;
+  home_goals: number;
+  away_goals: number;
+  home_pens?: number | null;
+  away_pens?: number | null;
+  scorers?: GoalScorer[];
+};
+
+export type ResultsBundle = {
+  generated_at: string;
+  source: string;
+  items: MatchResult[];
+};
+
+export type SquadPlayer = {
+  number: number | null;
+  name: string;
+  position: "GK" | "DF" | "MF" | "FW" | string;
+  age: number | null;
+  caps: number | null;
+  goals: number | null;
+  club: string | null;
+};
+
+export type Squad = {
+  team: string;
+  coach: string | null;
+  players: SquadPlayer[];
+};
+
+export type SquadsBundle = {
+  generated_at: string;
+  source: string;
+  squads: Record<string, Squad>;
+};
+
 export type DataStatus = {
   results_source: "REAL" | "SAMPLE" | string;
   fixtures_source: "REAL" | "SAMPLE" | string;

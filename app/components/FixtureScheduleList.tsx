@@ -8,7 +8,7 @@ import { TeamLabel } from "./TeamLabel";
 import { cn } from "../lib/cn";
 import { formatScheduleDayHeading } from "../lib/dateDisplay";
 import { headlineScoreline } from "../lib/predictionDisplay";
-import type { Fixture, Prediction } from "../lib/types";
+import type { Fixture, MatchResult, Prediction } from "../lib/types";
 
 const STAGE_LABELS: Record<string, string> = {
   group: "Group",
@@ -66,23 +66,38 @@ function TeamSlot({
 function FixtureCard({
   fixture,
   pred,
+  result,
   names,
   index,
 }: {
   fixture: Fixture;
   pred?: Prediction;
+  result?: MatchResult;
   names: Record<string, string>;
   index: number;
 }) {
   const top = pred ? headlineScoreline(pred) : undefined;
   const homeName = names[fixture.home] ?? fixture.home;
   const awayName = names[fixture.away] ?? fixture.away;
+  const finished = result && result.status !== "LIVE";
   const content = (
     <>
       <div className="mb-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted">
         <span className="inline-flex flex-wrap items-center gap-1.5">
           <span className="chip border-gold-500/40 text-gold-400">{stageLabel(fixture)}</span>
           <span className="chip">{matchNumber(fixture.match_id)}</span>
+          {result ? (
+            <span
+              className={cn(
+                "chip font-semibold",
+                result.status === "LIVE"
+                  ? "border-crimson-500/50 text-crimson-400"
+                  : "border-pitch-500/40 text-pitch-400"
+              )}
+            >
+              {result.status === "LIVE" ? "LIVE" : "Full time"}
+            </span>
+          ) : null}
         </span>
         <span className="inline-flex items-center gap-1">
           <Clock className="h-3 w-3" /> {fixture.date}
@@ -92,14 +107,34 @@ function FixtureCard({
 
       <div className="mb-3 grid grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] items-center gap-3">
         <TeamSlot code={fixture.home} names={names} />
-        <div className="text-center text-[11px] uppercase tracking-widest text-subtle">vs</div>
+        {result ? (
+          <div className="text-center font-mono text-xl font-extrabold tabular-nums text-ink">
+            {result.home_goals}
+            <span className="px-1 text-subtle">-</span>
+            {result.away_goals}
+          </div>
+        ) : (
+          <div className="text-center text-[11px] uppercase tracking-widest text-subtle">vs</div>
+        )}
         <TeamSlot code={fixture.away} names={names} align="right" />
       </div>
 
-      {pred ? <ProbBar pHome={pred.p_home} pDraw={pred.p_draw} pAway={pred.p_away} /> : null}
+      {pred && !finished ? (
+        <ProbBar pHome={pred.p_home} pDraw={pred.p_draw} pAway={pred.p_away} />
+      ) : null}
 
       <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted">
-        {top ? (
+        {finished && top ? (
+          <span>
+            Model predicted{" "}
+            <span className="rounded-md border border-line/80 bg-elevated px-1.5 py-0.5 font-mono text-ink tabular-nums">
+              {top.home_goals}-{top.away_goals}
+            </span>
+            {result && top.home_goals === result.home_goals && top.away_goals === result.away_goals ? (
+              <span className="ml-1.5 text-pitch-400">exact hit</span>
+            ) : null}
+          </span>
+        ) : top ? (
           <span>
             Most likely scoreline{" "}
             <span className="rounded-md border border-line/80 bg-elevated px-1.5 py-0.5 font-mono text-ink tabular-nums">
@@ -158,10 +193,12 @@ export function FixtureScheduleList({
   items,
   predictions,
   names,
+  results = {},
 }: {
   items: Fixture[];
   predictions: Prediction[];
   names: Record<string, string>;
+  results?: Record<string, MatchResult>;
 }) {
   const predictionById = new Map(predictions.map((p) => [p.match_id, p]));
   const sorted = [...items].sort(sortFixtures);
@@ -193,6 +230,7 @@ export function FixtureScheduleList({
                 key={`${fixture.match_id}-${fixture.stage}`}
                 fixture={fixture}
                 pred={predictionById.get(fixture.match_id)}
+                result={results[fixture.match_id]}
                 names={names}
                 index={groupIndex * 8 + itemIndex}
               />

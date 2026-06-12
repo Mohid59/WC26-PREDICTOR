@@ -6,20 +6,23 @@ import { ProbBar } from "./ProbBar";
 import { TeamLabel } from "./TeamLabel";
 import { cn } from "../lib/cn";
 import { headlineScoreline } from "../lib/predictionDisplay";
-import type { Prediction } from "../lib/types";
+import type { MatchResult, Prediction } from "../lib/types";
 
 export function MatchCard({
   pred,
   names,
+  result,
   index = 0,
 }: {
   pred: Prediction;
   names: Record<string, string>;
+  result?: MatchResult;
   index?: number;
 }) {
   const top = headlineScoreline(pred);
   const homeName = names[pred.home] ?? pred.home;
   const awayName = names[pred.away] ?? pred.away;
+  const finished = result && result.status !== "LIVE";
   return (
     <motion.div
       initial={{ opacity: 0, y: 8 }}
@@ -46,21 +49,53 @@ export function MatchCard({
               {pred.kickoff ? ` · ${pred.kickoff}` : ""}
             </span>
           </span>
-          <span className="chip">
-            conf <span className="ml-1 font-mono text-ink">{Math.round(pred.confidence * 100)}%</span>
-          </span>
+          {result ? (
+            <span
+              className={cn(
+                "chip font-semibold",
+                result.status === "LIVE"
+                  ? "border-crimson-500/50 text-crimson-400"
+                  : "border-pitch-500/40 text-pitch-400"
+              )}
+            >
+              {result.status === "LIVE" ? "LIVE" : "Full time"}
+            </span>
+          ) : (
+            <span className="chip">
+              conf{" "}
+              <span className="ml-1 font-mono text-ink">{Math.round(pred.confidence * 100)}%</span>
+            </span>
+          )}
         </div>
 
         <div className="mb-3 grid grid-cols-[1fr_auto_1fr] items-center gap-3">
           <TeamLabel code={pred.home} name={homeName} size="md" />
-          <div className="text-center text-[11px] uppercase tracking-widest text-subtle">vs</div>
+          {result ? (
+            <div className="text-center font-mono text-xl font-extrabold tabular-nums text-ink">
+              {result.home_goals}
+              <span className="px-1 text-subtle">–</span>
+              {result.away_goals}
+            </div>
+          ) : (
+            <div className="text-center text-[11px] uppercase tracking-widest text-subtle">vs</div>
+          )}
           <TeamLabel code={pred.away} name={awayName} size="md" align="right" />
         </div>
 
-        <ProbBar pHome={pred.p_home} pDraw={pred.p_draw} pAway={pred.p_away} />
+        {!finished ? <ProbBar pHome={pred.p_home} pDraw={pred.p_draw} pAway={pred.p_away} /> : null}
 
         <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs text-muted">
-          {top ? (
+          {finished && top ? (
+            <span>
+              Model predicted{" "}
+              <span className="rounded-md border border-line/80 bg-elevated px-1.5 py-0.5 font-mono text-ink tabular-nums">
+                {top.home_goals}–{top.away_goals}
+              </span>
+              {top.home_goals === result.home_goals && top.away_goals === result.away_goals ? (
+                <span className="ml-1.5 text-pitch-400">exact hit</span>
+              ) : null}
+            </span>
+          ) : top ? (
             <span>
               Most likely scoreline{" "}
               <span className="rounded-md border border-line/80 bg-elevated px-1.5 py-0.5 font-mono text-ink tabular-nums">

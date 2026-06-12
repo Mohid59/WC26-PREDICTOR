@@ -1,13 +1,21 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, CalendarDays, LayoutGrid, GitBranchPlus, Trophy } from "lucide-react";
+import {
+  LayoutDashboard,
+  CalendarDays,
+  LayoutGrid,
+  GitBranchPlus,
+  Trophy,
+  Users,
+} from "lucide-react";
 import { cn } from "../lib/cn";
 
 const items = [
   { href: "/", label: "Home", icon: LayoutDashboard },
   { href: "/groups", label: "Groups", icon: LayoutGrid },
   { href: "/fixtures", label: "Fixtures", icon: CalendarDays },
+  { href: "/teams", label: "Teams", icon: Users },
   { href: "/bracket", label: "Bracket", icon: GitBranchPlus },
 ];
 

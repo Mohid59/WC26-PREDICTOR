@@ -1,14 +1,22 @@
 import { CalendarDays } from "lucide-react";
-import { loadFixtures, loadPredictions, loadTeams, teamNameMap } from "../lib/artifacts";
+import {
+  loadFixtures,
+  loadPredictions,
+  loadResults,
+  loadTeams,
+  resultMap,
+  teamNameMap,
+} from "../lib/artifacts";
 import { FixtureScheduleList } from "../components/FixtureScheduleList";
 
 export const dynamic = "force-static";
 
 export default async function FixturesPage() {
-  const [fixtures, preds, teams] = await Promise.all([
+  const [fixtures, preds, teams, resultsBundle] = await Promise.all([
     loadFixtures(),
     loadPredictions(),
     loadTeams(),
+    loadResults(),
   ]);
   if (!fixtures) {
     return <div className="card">No fixtures available yet.</div>;
@@ -39,6 +47,7 @@ export default async function FixturesPage() {
         items={fixtures.items}
         predictions={preds?.items ?? []}
         names={names}
+        results={resultMap(resultsBundle)}
       />
     </div>
   );

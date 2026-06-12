@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-06-13T00:00:00Z",
+  "source": "Official FIFA World Cup 2026 results, aggregated from public match reports (FIFA.com, ESPN, news agencies).",
+  "items": [
+    {
+      "match_id": "M001",
+      "status": "FT",
+      "home_goals": 2,
+      "away_goals": 0,
+      "scorers": [
+        { "team": "MEX", "player": "Julián Quiñones", "minute": 9 },
+        { "team": "MEX", "player": "Raúl Jiménez", "minute": 67 }
+      ]
+    },
+    {
+      "match_id": "M002",
+      "status": "FT",
+      "home_goals": 2,
+      "away_goals": 1,
+      "scorers": [
+        { "team": "CZE", "player": "Ladislav Krejčí", "minute": null },
+        { "team": "KOR", "player": "Hwang In-beom", "minute": 67 },
+        { "team": "KOR", "player": "Oh Hyeon-gyu", "minute": 80 }
+      ]
+    },
+    {
+      "match_id": "M003",
+      "status": "FT",
+      "home_goals": 0,
+      "away_goals": 1,
+      "scorers": [
+        { "team": "BIH", "player": "Jovo Lukić", "minute": 21 }
+      ]
+    }
+  ]
+}

@@ -4,15 +4,17 @@ import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { MatchCard } from "./MatchCard";
 import { formatScheduleDayHeading } from "../lib/dateDisplay";
-import type { Prediction } from "../lib/types";
+import type { MatchResult, Prediction } from "../lib/types";
 
 export function UpcomingList({
   items,
   names,
+  results = {},
   initialCount = 8,
 }: {
   items: Prediction[];
   names: Record<string, string>;
+  results?: Record<string, MatchResult>;
   initialCount?: number;
 }) {
   const [showAll, setShowAll] = useState(false);
@@ -63,7 +65,13 @@ export function UpcomingList({
           </div>
           <div className="grid gap-3 md:grid-cols-2">
             {b.items.map((p, i) => (
-              <MatchCard key={p.match_id} pred={p} names={names} index={gIdx * 6 + i} />
+              <MatchCard
+                key={p.match_id}
+                pred={p}
+                names={names}
+                result={results[p.match_id]}
+                index={gIdx * 6 + i}
+              />
             ))}
           </div>
         </section>

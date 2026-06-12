@@ -3,8 +3,10 @@ import { ArrowRight, Trophy, LayoutGrid, GitBranchPlus } from "lucide-react";
 import {
   loadFixtures,
   loadPredictions,
+  loadResults,
   loadSimulation,
   loadTeams,
+  resultMap,
   teamNameMap,
 } from "./lib/artifacts";
 import { UpcomingList } from "./components/UpcomingList";
@@ -16,12 +18,14 @@ export const dynamic = "force-static";
 const TOURNAMENT_START = "2026-06-11";
 
 export default async function HomePage() {
-  const [fixtures, preds, sim, teamsBundle] = await Promise.all([
+  const [fixtures, preds, sim, teamsBundle, resultsBundle] = await Promise.all([
     loadFixtures(),
     loadPredictions(),
     loadSimulation(),
     loadTeams(),
+    loadResults(),
   ]);
+  const results = resultMap(resultsBundle);
 
   if (!preds || preds.items.length === 0) {
     return (
@@ -104,7 +108,7 @@ export default async function HomePage() {
             All fixtures →
           </Link>
         </div>
-        <UpcomingList items={preds.items} names={names} initialCount={8} />
+        <UpcomingList items={preds.items} names={names} results={results} initialCount={8} />
       </section>
 
       {/* Top winners */}

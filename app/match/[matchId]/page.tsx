@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, Calendar, MapPin, Clock, Activity, ListTree, Lightbulb } from "lucide-react";
 import {
   loadPredictions,
+  loadResults,
   loadTeams,
   pct,
   teamNameMap,
@@ -21,10 +22,15 @@ export async function generateStaticParams() {
 }
 
 export default async function MatchPage({ params }: { params: { matchId: string } }) {
-  const [preds, teams] = await Promise.all([loadPredictions(), loadTeams()]);
+  const [preds, teams, resultsBundle] = await Promise.all([
+    loadPredictions(),
+    loadTeams(),
+    loadResults(),
+  ]);
   if (!preds) return notFound();
   const pred = preds.items.find((p) => p.match_id === decodeURIComponent(params.matchId));
   if (!pred) return notFound();
+  const result = resultsBundle?.items.find((r) => r.match_id === pred.match_id);
   const names = teamNameMap(teams?.items);
   const homeName = names[pred.home] ?? pred.home;
   const awayName = names[pred.away] ?? pred.away;
@@ -69,24 +75,60 @@ export default async function MatchPage({ params }: { params: { matchId: string 
               <h2 className="text-2xl font-black tracking-tight md:text-4xl">{homeName}</h2>
             </div>
             <div className="text-center">
-              <div className="text-[10px] uppercase tracking-[0.22em] text-muted">vs</div>
-              <div className="mt-1 font-mono text-3xl font-extrabold tabular-nums text-ink md:text-5xl">
-                {headline ? headline.home_goals : Math.round(pred.xg_home)}
-                <span className="px-2 text-subtle">–</span>
-                {headline ? headline.away_goals : Math.round(pred.xg_away)}
-              </div>
-              <div className="mt-0.5 text-[10px] uppercase tracking-[0.22em] text-subtle">
-                most likely scoreline
-              </div>
-              <div className="mt-1.5 text-xs text-muted">
-                Expected goals (Poisson): {pred.xg_home.toFixed(2)} – {pred.xg_away.toFixed(2)}
-              </div>
+              {result ? (
+                <>
+                  <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-pitch-400">
+                    {result.status === "LIVE" ? "Live" : "Full time"}
+                  </div>
+                  <div className="mt-1 font-mono text-3xl font-extrabold tabular-nums text-ink md:text-5xl">
+                    {result.home_goals}
+                    <span className="px-2 text-subtle">–</span>
+                    {result.away_goals}
+                  </div>
+                  <div className="mt-1.5 text-xs text-muted">
+                    Model predicted{" "}
+                    {headline
+                      ? `${headline.home_goals}–${headline.away_goals}`
+                      : `${Math.round(pred.xg_home)}–${Math.round(pred.xg_away)}`}
+                  </div>
+                </>
+              ) : (
+                <>
+                  <div className="text-[10px] uppercase tracking-[0.22em] text-muted">vs</div>
+                  <div className="mt-1 font-mono text-3xl font-extrabold tabular-nums text-ink md:text-5xl">
+                    {headline ? headline.home_goals : Math.round(pred.xg_home)}
+                    <span className="px-2 text-subtle">–</span>
+                    {headline ? headline.away_goals : Math.round(pred.xg_away)}
+                  </div>
+                  <div className="mt-0.5 text-[10px] uppercase tracking-[0.22em] text-subtle">
+                    most likely scoreline
+                  </div>
+                  <div className="mt-1.5 text-xs text-muted">
+                    Expected goals (Poisson): {pred.xg_home.toFixed(2)} – {pred.xg_away.toFixed(2)}
+                  </div>
+                </>
+              )}
             </div>
             <div className="flex flex-col items-start gap-3">
               <Flag code={pred.away} name={awayName} size="xl" rounded="rounded-md" />
               <h2 className="text-2xl font-black tracking-tight md:text-4xl">{awayName}</h2>
             </div>
           </div>
+          {result?.scorers?.length ? (
+            <div className="mt-5 flex flex-wrap justify-center gap-2 border-t border-line/60 pt-4">
+              {result.scorers.map((s, i) => (
+                <span key={i} className="chip">
+                  <span className="font-semibold text-ink">{s.player}</span>
+                  <span className="ml-1 text-subtle">
+                    {s.team}
+                    {s.minute != null ? ` ${s.minute}'` : ""}
+                    {s.penalty ? " (pen)" : ""}
+                    {s.own_goal ? " (og)" : ""}
+                  </span>
+                </span>
+              ))}
+            </div>
+          ) : null}
         </div>
       </header>
 
